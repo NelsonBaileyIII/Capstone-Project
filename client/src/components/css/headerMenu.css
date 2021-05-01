@@ -1,0 +1,11 @@
+.menu-container {
+  padding-top: 0rem !important;
+  padding-bottom: 1rem;
+}
+
+.menu-small {
+  border-radius: 0px !important;
+  content: default !important;
+  border-left: none !important;
+  border-right: none !important;
+}

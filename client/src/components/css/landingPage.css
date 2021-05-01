@@ -1,0 +1,95 @@
+.dark-landing {
+  background-color: #363636 !important;
+  color: whitesmoke !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.grid-size {
+  height: 25rem;
+}
+
+.landing-header {
+  font-size: 36px !important;
+  color: whitesmoke !important;
+}
+
+.text-style {
+  font-size: 20px;
+  margin-bottom: 3rem;
+}
+
+.landing-btn {
+  font-size: 18px !important;
+}
+
+.save-example-container {
+  /* background-color: #565964; */
+}
+
+.save-header {
+  margin-top: 2rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.save-example-img {
+  margin-top: 1rem !important;
+}
+
+/* default padding for exampleSets too large for mobile */
+@media only screen and (max-width: 767px) {
+  .column-overide-left {
+    padding-right: 0.25rem !important;
+  }
+
+  .column-overide-right {
+    padding-left: 0.25rem !important;
+  }
+}
+
+.explanation-container {
+  padding-top: 1rem;
+  height: 20rem;
+}
+
+.explanation-header {
+  margin-top: 1rem !important;
+}
+
+.explanation-text {
+  font-size: 16px;
+}
+
+/* footer */
+.footer {
+  height: 10rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid lightgrey;
+}
+
+.footer-header {
+  float: right;
+  display: inline-block;
+}
+
+.icon-container {
+  display: inline-block;
+  cursor: pointer;
+  float: left;
+}
+
+.icon-div {
+  color: black;
+  opacity: 0.8;
+  margin: 0px 4px;
+}
+
+.icon-div:hover {
+  opacity: 1 !important;
+}
+
+.portfolio-link {
+  margin-top: 3px;
+  font-size: 16px;
+}

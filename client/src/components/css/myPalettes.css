@@ -1,0 +1,157 @@
+/* render hex color squares */
+.color-square-container {
+  display: inline-block;
+  width: 20%;
+}
+
+.color-square {
+  width: 100%;
+  padding-top: 75%;
+  display: inline-block;
+}
+
+.palette-header,
+.generate-header {
+  margin-top: 1rem !important;
+  margin-bottom: 4rem !important;
+}
+
+.palette-container {
+  position: relative !important;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.input-colors-container {
+  display: inline-block;
+}
+
+.edit-sketchpicker {
+  float: right;
+  display: inline-block;
+}
+
+.image-header,
+.ellipsisMenu {
+  display: inline-block;
+}
+
+.ellipsisMenu {
+  float: right;
+}
+
+/* override default menu styling */
+.menu-parent {
+  border: none !important;
+  min-height: 0px !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  content: default !important;
+}
+
+.menu-styles {
+  padding-left: 3px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 5px;
+}
+
+/* These styles override the link tag */
+.edit-item-style {
+  width: 100%;
+  padding: 11px 16px;
+  margin-left: 2px;
+  cursor: pointer;
+  display: block;
+  font-weight: 400;
+  font-size: 1rem;
+  text-transform: none;
+  color: black;
+  opacity: 0.87;
+}
+
+.edit-item-style:hover {
+  background-color: #f5f5f5;
+  opacity: 1;
+}
+
+.menu-styles:hover {
+  background-color: #e0e1e2;
+}
+
+.edit-icon {
+  margin-left: -1px;
+}
+
+/* line up text in dropdown */
+.edit-text {
+  margin-left: -1px;
+  display: inline-block;
+}
+
+.color-square-container {
+  display: inline-block;
+  width: 20%;
+}
+
+/* Edit Modal styles */
+.color-square {
+  width: 100%;
+  padding-top: 75%;
+  display: inline-block;
+}
+
+.carot-container {
+  text-align: center;
+}
+
+.modal-input {
+  display: inline-block;
+  width: 90%;
+  max-width: 425px;
+  padding-bottom: 10px;
+}
+
+.edit-icon-div {
+  color: black;
+  opacity: 0.8;
+  margin: 0px 2px;
+}
+
+.edit-icon-div:hover {
+  opacity: 1 !important;
+}
+
+/* Masonry Styles */
+/* https://github.com/Semantic-Org/Semantic-UI/issues/3353 */
+.masonry.grid {
+  display: block;
+}
+
+.ui.grid > .column:not(.row) {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .masonry.grid {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;
+  }
+
+  .ui.doubling.masonry.grid[class*="three column"] > .column {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .masonry.grid {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
+}
