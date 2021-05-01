@@ -10,7 +10,7 @@ const Footer = ({ url }) => {
         <div className="icon-container">
           <a
             className="icon-div"
-            href="https://github.com/NelsonBaileyIII/capstone-color-project"
+            href="https://github.com/NelsonBaileyIII/Capstone-Project"
             target="_blank"
             rel="noopener noreferrer"
           >
