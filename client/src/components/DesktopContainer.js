@@ -77,7 +77,7 @@ class DesktopContainer extends Component {
             <Menu className="menu-small" size="small" borderless>
               <Container>
                 <Menu.Item as={Link} to="/">
-                  <h5>Color Pic</h5>
+                  <h5>Color App</h5>
                 </Menu.Item>
                 <Menu.Item as={Link} to="/Generate">
                   <h5>Generate</h5>

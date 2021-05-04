@@ -172,7 +172,8 @@ class AddImgModal extends Component {
     const { closeOnEscape, closeOnDimmerClick } = this.state;
     return (
       <div>
-        <Button onClick={this.closeConfigShow(false, true)} icon>
+        <Button onClick={this.closeConfigShow(false, true)} icon
+        color="blue" >
           Try your own image
         </Button>
         <Modal
